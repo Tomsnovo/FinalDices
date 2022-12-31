@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dices table.jpg" />
+    <None Remove="pictures\dice1.png" />
+    <None Remove="pictures\dice2.png" />
+    <None Remove="pictures\dice3.png" />
+    <None Remove="pictures\dice4.png" />
+    <None Remove="pictures\dice5.png" />
+    <None Remove="pictures\dice6.png" />
+    <None Remove="pictures\dices table.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pictures\dice1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dices table.jpg" />
+    <Resource Include="pictures\dice5.png" />
+    <Resource Include="pictures\dice4.png" />
+    <Resource Include="pictures\dice6.png" />
+    <Resource Include="pictures\dice3.png" />
+    <Resource Include="pictures\dice2.png" />
+    <Resource Include="pictures\dices table.jpg" />
+  </ItemGroup>
+
+</Project>
